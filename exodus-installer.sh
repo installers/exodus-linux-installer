@@ -10,7 +10,7 @@
 
 # Global variables
 #
-INSTALLER_VERSION=1.0.4
+INSTALLER_VERSION=1.61.0
 PROCESSOR="x64"
 #
 # Check for eden suffix in name of script. If detected, download the Eden version instead.
@@ -37,7 +37,7 @@ exodus_filename() {
 # This can change, so we have to make sure this is "up to date"
 #
 exodus_download_url() {
-  echo 'https://exodusbin.azureedge.net/releases/'$1
+  echo 'https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.61.0.zip'$1
 }
 
 
